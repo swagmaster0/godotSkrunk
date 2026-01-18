@@ -126,6 +126,8 @@ public:
 	const StringName blend_times = "blend_times";
 	const StringName speed = "speed";
 
+	const StringName multiplayer_synchronizer_data_updated = "multiplayer_synchronizer_data_updated";
+
 	const NodePath path_pp = NodePath("..");
 
 	const StringName default_ = "default"; // default would conflict with C++ keyword.

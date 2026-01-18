@@ -1977,6 +1977,7 @@ void Object::_bind_methods() {
 
 	ADD_SIGNAL(MethodInfo("script_changed"));
 	ADD_SIGNAL(MethodInfo("property_list_changed"));
+	ADD_SIGNAL(MethodInfo("multiplayer_synchronizer_data_updated", PropertyInfo(Variant::NODE_PATH, "property"), PropertyInfo(Variant::NIL, "value")));
 
 #define BIND_OBJ_CORE_METHOD(m_method) \
 	::ClassDB::add_virtual_method(get_class_static(), m_method, true, Vector<String>(), true);
